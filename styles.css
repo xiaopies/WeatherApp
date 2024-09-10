@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.weather-container {
+    width: 600px;
+    height: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sun {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 20px auto;
+    margin-bottom: -50px;
+    position: relative;
+}
+
+.sun .temp {
+    font-size: 50px;
+    line-height: 80px; /* Vertically center */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.low {
+    font-size: 50px;
+    line-height: 80px; /* Vertically center */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+
+.smile {
+    margin-top: -50px;
+    width: 60px;
+}
+
+.temp-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.widget {
+    width: 48px;
+    height: 48px;
+    margin-top: 20px;
+    background: gray;
+    border-radius: 24px;
+}
+
+.precipitation {
+    height: 3px;
+    background: blue;
+    width: 50%; /* Example length */
+    margin: 20px auto;
+}
+
+.weekly-forecast div {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* .location {
+    font-family: 'Cursive', sans-serif;    
+    font-size: 20px;
+} */
+
+.location {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: 80px;
+    font-weight: 80;
+    font-style: normal;
+  }
+
+.condition {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: blue;
+    font-style: normal;
+}
+
+.globe {
+    width: 50px;
+    height: 50px;
+}
+
+.dist {
+    margin-left: -220px;
+    width: 800px;
+    height:150px;
+}
+
+.bottom {
+    width:570px;
+    height:300px;
+}
